@@ -1,0 +1,3 @@
+(library (name fieldslib_new_test) (inline_tests) (libraries fieldslib)
+ (preprocess (pps ppx_fields_conv ppx_inline_test))
+ (modules_without_implementation deriving_inline))

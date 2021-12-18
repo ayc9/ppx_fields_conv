@@ -1,3 +1,3 @@
 open Ppxlib
 
-val fields : Deriving.t
+val create : Deriving.t
